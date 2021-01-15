@@ -1,5 +1,5 @@
 const register = async app => {
-  await require('react-ssr/packages/core/lib/register')(app)
+  await require('react-ssr/packages/core/src/register')(app)
 }
 
 module.exports = register
