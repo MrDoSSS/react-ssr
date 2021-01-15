@@ -1,6 +1,6 @@
 const register = async app => {
-  await require('@react-ssr/core/lib/register')(app);
-};
+  await require('react-ssr/packages/core/lib/register')(app)
+}
 
-module.exports = register;
-module.exports.default = register;
+module.exports = register
+module.exports.default = register
